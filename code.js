@@ -7,7 +7,10 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'nitro') {
-    msg.reply('Nuti dau is zgargit :)))! <a:2234_nitro:584309367029891072>');
+    msg.reply('Nuti dau is zgarcit :)))! <a:2234_nitro:584309367029891072>');
+  }
+   if (msg.content === 'emoji') {
+    msg.reply('<a:PartyGlasses:584309775936782351><a:PartyGlasses:584309775936782351><a:PartyGlasses:584309775936782351><a:PartyGlasses:584309775936782351><a:PartyGlasses:584309775936782351><a:PartyGlasses:584309775936782351><a:PartyGlasses:584309775936782351>');
   }
 });
 
